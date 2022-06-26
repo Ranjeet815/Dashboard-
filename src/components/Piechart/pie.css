@@ -1,0 +1,27 @@
+.pie {
+  /* (A1) CIRCLE */
+  width: 200px; height: 200px;
+  border-radius: 50%;
+  margin: 30px auto;
+  margin-left: -300px;
+  /* (A2) SEGMENTS */
+  background: conic-gradient(
+    red 0deg 45deg,
+    #D83276 45deg 190deg,
+    #EC8639 190deg 360deg
+  );
+}
+
+/* (B) LEGEND */
+/* (B1) LEGEND CONTAINER */
+.legend {
+  display: grid;
+  grid-template-columns: 50px auto;
+  margin-top: 30px;
+}
+ 
+/* (B2) SEGMENTS */
+.legend div { padding: 10px; }
+.segment1 { background: red; }
+.segment2 { background: #D83276; }
+.segment3 { background: #EC8639; }

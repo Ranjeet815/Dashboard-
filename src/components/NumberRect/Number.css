@@ -1,0 +1,68 @@
+.parentNum{
+    margin-top: 3rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    border: 1px solid #BBBBBB;
+    height: 123px;
+    padding: 15px;
+    font-family: 'Roboto';
+   font-style: normal;
+}
+
+.number1{
+    flex: 2;
+    display: grid;
+    align-content: center;
+    
+}
+
+
+.number2{
+    flex: 2.1;
+    display: grid;
+    align-content: center;
+}
+.number3{
+    flex: 2.1;
+    display: grid;
+    align-content: center;
+}
+.number4{
+    flex: 2;
+    display: grid;
+    align-content: center;
+}
+
+.number5{
+    flex: 2;
+    display: grid;
+    align-content: center;
+}
+
+
+.num{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.infoAll{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+color: #555555;
+
+}
+
+.info{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #555555;
+}

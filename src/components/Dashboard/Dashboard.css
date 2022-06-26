@@ -1,0 +1,64 @@
+.parentContainer{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.Left{
+    flex: 4;
+    display: flex;
+    font-size: 14px;
+    border: 1px solid #BBBBBB;
+    width: 474px;
+   height: 442px;
+   color: #000000;
+   padding: 10px;
+}
+.label{
+    margin-right: 52px;
+    margin-top: 10px;
+}
+
+.piechart{
+    margin-top: 76px;
+}
+.b{
+    
+    margin-left: -167px;
+
+}
+.a{
+    margin-right: 20px;
+}
+.center{
+    flex: 4;
+    font-size: 14px;
+    border: 1px solid #BBBBBB;
+    width: 474px;
+   height: 442px;
+   color: #000000;
+  padding: 10px;
+}
+.labelcenter{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.imgrect{
+ padding: 10px;
+ width: 375px;
+}
+.rightc{
+    flex: 4;
+    border: 1px solid #BBBBBB;
+    width: 474px;
+   height: 442px;
+   padding: 10px;
+   grid-auto-columns: 10px;
+    
+}
+
+
+
+
